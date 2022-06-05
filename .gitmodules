@@ -1,0 +1,3 @@
+[submodule "glut-install"]
+	path = glut-install
+	url = git@github.com:gkk-dev-ops/glut-install.git
