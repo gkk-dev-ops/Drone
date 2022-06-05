@@ -120,7 +120,7 @@ bool Dron::lec_w_gore(double ile, std::vector<std::shared_ptr<El_Powierzchni>> P
         przesun(std::vector<double>{0, 0, rozdzielczosc * znak});
         uruchom_wirniki();
 
-        for (int i = 0; i < PrzeszkodyNaScenie.capacity(); i++)
+        for (int i = 0; i < PrzeszkodyNaScenie.size(); i++)
         {
 
             if (czy_koliduje(PrzeszkodyNaScenie[i]))
@@ -232,7 +232,7 @@ bool Dron::aktualizuj_orientacje(double kat, std::vector<std::shared_ptr<El_Powi
             wirniki[i].orientacja = wirniki[i].orientacja * nowaOrientacja;
         }
         uruchom_wirniki();
-        for (int i = 0; i < PrzeszkodyNaScenie.capacity(); i++)
+        for (int i = 0; i < PrzeszkodyNaScenie.size(); i++)
         {
             if (czy_koliduje(PrzeszkodyNaScenie[i]))
             {

@@ -21,7 +21,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #include <thread>
 #include <cstdlib>
 #include <mutex>
+
+#ifdef _WIN32
 #include "unistd.h"
+#else
+#include <unistd.h>
+#endif
 
 namespace drawNS
 {
