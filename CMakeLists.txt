@@ -5,6 +5,8 @@ cmake_minimum_required (VERSION 3.0)
 
 project ("DronOnWindows")
 
+# on linux: apt-get install freeglut3 && apt-get install binutils gold 
+# on windows: https://www.opengl.org/resources/libraries/glut/glut_downloads.php && https://blog.albertarmea.com/post/40667525183/installing-glut-on-windows
 find_package(GLUT REQUIRED)
 
 # Add source to this project's executable.
