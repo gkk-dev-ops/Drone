@@ -1,3 +1,0 @@
-C:/Users/gkk/dev/C++/Drone/build/CMakeFiles/main.dir
-C:/Users/gkk/dev/C++/Drone/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/gkk/dev/C++/Drone/build/CMakeFiles/ZERO_CHECK.dir
