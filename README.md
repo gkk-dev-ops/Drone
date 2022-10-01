@@ -1,4 +1,4 @@
-# Drone
+# Drone <img align="right" width="175" height="125" src="https://user-images.githubusercontent.com/93217666/193429350-9ce3225f-67fc-4361-bf83-6786fa1ee150.png">
 
 College project simulating flying drone, with object collisions implemented as well as steereing the drone by defining point where it should land.
 
